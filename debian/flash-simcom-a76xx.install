@@ -1,0 +1,3 @@
+fbfdownloader_arm7l usr/bin
+blink_simcom.sh usr/bin
+flash_simcom.sh usr/bin
