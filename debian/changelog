@@ -1,3 +1,9 @@
+flash-simcom-a76xx (1.0.1) stable; urgency=medium
+
+  * Fixed launch of blink_simcom.sh
+
+ -- Alexander Rakhman <alexander.rakhman@wirenboard.com>  Tue, 20 Dec 2022 12:13:25 +0400
+
 flash-simcom-a76xx (1.0.0) stable; urgency=medium
 
   * Initial public release

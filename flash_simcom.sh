@@ -6,7 +6,7 @@ echo 'press enter while you will be ready to proceed'
 read a
 
 echo 'starting blinking'
-sh blink.sh &
+sh blink_simcom.sh &
 BLINK_PID=$!
 echo 'blink process is '$BLINK_PID
 
