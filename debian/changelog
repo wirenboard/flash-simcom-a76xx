@@ -1,3 +1,9 @@
+flash-simcom-a76xx (1.0.2) stable; urgency=medium
+
+  * Fixed package description
+
+ -- Aleksandr Kazadaev <aleksandr.kazadaev@wirenboard.com>  Wed, 11 Jan 2023 09:58:59 +0300
+
 flash-simcom-a76xx (1.0.1) stable; urgency=medium
 
   * Fixed launch of blink_simcom.sh
