@@ -1,3 +1,9 @@
+flash-simcom-a76xx (1.1.0) stable; urgency=medium
+
+  * Add Debian Bullseye support
+
+ -- Petr Krasnoshchekov <petr.krasnoshchekov@wirenboard.com>  Tue, 07 Mar 2023 15:14:27 +0500
+
 flash-simcom-a76xx (1.0.2) stable; urgency=medium
 
   * Fixed package description
