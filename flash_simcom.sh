@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source "/usr/lib/wb-utils/wb_env.sh"
+
 echo 'stopping ModemManager'
 systemctl stop ModemManager || true
 
