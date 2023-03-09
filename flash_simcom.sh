@@ -1,12 +1,18 @@
 #!/bin/bash
 
+source "/usr/lib/wb-utils/wb_env.sh"
+
+echo 'stopping ModemManager'
+systemctl stop ModemManager || true
+
 echo 'switching modem off'
-echo 0 > /sys/class/gpio/gpio$WB_GPIO_GSM_POWER/value #5v off!
+systemctl stop wb-gsm || true
+
 echo 'press enter while you will be ready to proceed'
 read a
 
 echo 'starting blinking'
-sh blink_simcom.sh &
+sh /usr/bin/blink_simcom.sh &
 BLINK_PID=$!
 echo 'blink process is '$BLINK_PID
 
@@ -19,4 +25,3 @@ sleep 0.5
 echo 0 > /sys/class/gpio/gpio$WB_GPIO_GSM_PWRKEY/value #gsm pwrkey off
 
 kill $BLINK_PID
-
