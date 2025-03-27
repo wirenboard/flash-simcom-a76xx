@@ -9,4 +9,4 @@ Package: flash-simcom-a76xx
 Architecture: any
 Depends: wb-utils (>= 4.7.1), ${shlibs:Depends}, ${misc:Depends}
 Description: Simcom modem flash utility
-  Used to update Simcom modem firmware
+ Used to update Simcom modem firmware

@@ -117,8 +117,8 @@ void HandleTraceLog(struct CWtpComm *me,const TCHAR* format,...)
 		va_start (pArgs, format);
 		vsprintf (szBuffer, format, pArgs);
 		va_end (pArgs);
-		printf(szBuffer);
-		fprintf(me->m_hLog, szBuffer);
+		printf("%s", szBuffer);
+		fprintf(me->m_hLog, "%s", szBuffer);
 	}
 }
 BOOL SendPreamble (struct CWtpComm *me,BOOL bIsCustPreamble)

@@ -1,3 +1,9 @@
+flash-simcom-a76xx (1.1.2) stable; urgency=medium
+
+  * Fix build with gcc14
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 27 Mar 2025 16:30:00 +0400
+
 flash-simcom-a76xx (1.1.1) stable; urgency=medium
 
   * Add arm64 build, no functional changes
