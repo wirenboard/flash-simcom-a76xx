@@ -878,7 +878,7 @@ BOOL WtptpDownLoad_GetDeviceBootType(struct CWtptpDownLoad *me,PDEVICE pDev)
 				else
 					tsnprintf(szMessage,MAX_FILE_LENGTH,_T("InitialBL have issue\n"));
 
-				tfprintf (pDev->hLog,szMessage);				
+				tfprintf (pDev->hLog,"%s",szMessage);				
 				return FALSE;
 			}
 		}
@@ -898,7 +898,7 @@ BOOL WtptpDownLoad_GetDeviceBootType(struct CWtptpDownLoad *me,PDEVICE pDev)
 				{
 					tsnprintf(szMessage,MAX_FILE_LENGTH,_T("DDRType is not found , OBM read vendor DDR Pid 0x%x, can't find it in blf configure \n"),uiDdrVendorId<<8|uiDdrUnitSize);
 				}
-				tfprintf (pDev->hLog,szMessage);			
+				tfprintf (pDev->hLog,"%s",szMessage);			
 				return FALSE;
 			}
 		}

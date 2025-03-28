@@ -8,6 +8,7 @@
 #include "BinFileWtp.h"
 #include "kstring.h"
 #include "fbfdownload.h"
+#include <ctype.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
