@@ -2,8 +2,8 @@ Source: flash-simcom-a76xx
 Maintainer: Wiren Board Team <info@wirenboard.com>
 Section: misc
 Priority: optional
-Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9), pkg-config
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
 
 Package: flash-simcom-a76xx
 Architecture: any

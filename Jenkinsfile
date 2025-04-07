@@ -1,2 +1,2 @@
-buildDebSbuild defaultTargets: 'bullseye-armhf bullseye-arm64',
+buildDebSbuild defaultTargets: 'trixie-armhf trixie-arm64',
                defaultRunLintian: true
